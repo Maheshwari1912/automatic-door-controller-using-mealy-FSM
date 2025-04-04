@@ -1,0 +1,24 @@
+module doorcontr_tb();
+reg clk,rst,sensor,timeout;
+wire door_motor;
+door_contr dut(clk,rst,sensor,timeout,door_motor);
+always #5 clk=~clk;
+initial begin
+clk=0; rst=0; sensor=0; timeout=0;
+rst=1; #10; rst=0;
+$display("case1:person approaches, door opens and closes after timeout");
+sensor=1; #20; sensor=0; #30; timeout=1;#20;timeout=0; #20;
+$display("case2:person detected while door is closing , door reopens");
+sensor=1;#20; sensor=0;#30; timeout=1;
+#10;
+sensor=1;timeout=0; #20; sensor=0; #30; timeout=1;
+#20;
+timeout=0;
+#20;
+$display("case3: door remains closed without sensor activation");
+sensor=0;
+timeout=0;
+#40;
+$finish;
+end
+endmodule
