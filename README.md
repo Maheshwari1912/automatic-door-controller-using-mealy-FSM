@@ -29,3 +29,7 @@ automatically after a certain timeout period.
 • User safety by preventing the door from closing on a person.
 
 • Smooth and responsive door control through the FSM's state transitions.
+
+**simulation results:**
+
+![image](https://github.com/user-attachments/assets/a2013c65-868e-47f6-a5b1-5bfc847cef15)
