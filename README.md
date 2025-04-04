@@ -33,3 +33,7 @@ automatically after a certain timeout period.
 **simulation results:**
 
 ![image](https://github.com/user-attachments/assets/a2013c65-868e-47f6-a5b1-5bfc847cef15)
+
+**schematic:**
+
+![image](https://github.com/user-attachments/assets/329efaf8-30b8-41e7-944b-4c2ea554a72c)
