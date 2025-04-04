@@ -30,6 +30,9 @@ automatically after a certain timeout period.
 
 • Smooth and responsive door control through the FSM's state transitions.
 
+![image](https://github.com/user-attachments/assets/67b42716-8047-4477-9521-f9d4a6220d85)
+
+
 **simulation results:**
 
 ![image](https://github.com/user-attachments/assets/a2013c65-868e-47f6-a5b1-5bfc847cef15)
